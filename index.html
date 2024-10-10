@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albert-Einstein</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="nav-bar" id="navbar">
+            <nav>
+                <a href="#about">About Me</a>
+                <a href="#education">Education</a>
+                <a href="#papers">Papers</a>
+                <a href="#hobbies">Hobbies</a>
+                <a href="#articles">Articles</a>
+                <a href="#famous-quotes">Famous-quotes</a>
+                <a href="javascript:void(0);" class="nav-icon" onclick="funResponsive()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </nav>
+        </header>
+        
+
+        <section id="about-section">
+            <div id="image">
+                <img src="/images/myimage.jpg" alt="Albert Einstein">
+                <h3>Albert Einstein</h3>
+            </div>
+            <div id="about">
+                <h3>About Me</h3>
+                <p>I’m Albert Einstein, theoretical physicist extraordinaire. My theory of relativity (E = mc²) transformed modern physics. I have been awarded the Nobel Prize in Physics for my groundbreaking work, and I continue to inspire curiosity about the universe. I was never one to follow convention. My theoretical contributions—most notably, the theory of relativity—altered the course of scientific history.</p>
+            </div>
+        </section>
+
+        <section id="education">
+            <h3>Education</h3>
+            <div class="grid-section">
+                <div class="grid-item">
+                    <i class="fa fa-graduation-cap fa-3x" aria-hidden="true"></i>
+                    <h4>PhD in Physics</h4>
+                    <p>University of Zurich</p>
+                </div>
+                <div class="grid-item">
+                    <i class="fa fa-university fa-3x" aria-hidden="true"></i>
+                    <h4>Bachelor's in Mathematics</h4>
+                    <p>ETH Zurich</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="papers">
+            <h3>Papers Published</h3>
+            <div class="grid-section">
+                <div class="grid-item">
+                    <i class="fa fa-file-text-o fa-3x" aria-hidden="true"></i>
+                    <h5>On the Electrodynamics of Moving Bodies</h5>
+                    <p>1905 - Special theory of relativity.</p>
+                    <a href="https://en.wikisource.org/wiki/On_the_Electrodynamics_of_Moving_Bodies" class="read-more">Read More</a>
+                </div>
+                <div class="grid-item">
+                    <i class="fa fa-file-text-o fa-3x" aria-hidden="true"></i>
+                    <h5>Does the Inertia of a Body Depend Upon Its Energy Content?</h5>
+                    <p>1905 - Introduction of E = mc².</p>
+                    <a href="https://www.fourmilab.ch/etexts/einstein/E_mc2/www/" class="read-more">Read More</a>
+                </div>
+                <div class="grid-item">
+                    <i class="fa fa-file-text-o fa-3x" aria-hidden="true"></i>
+                    <h5>General Theory of Relativity</h5>
+                    <p>1915 - Expands on special relativity, introducing gravitation.</p>
+                    <a href="https://journals.aps.org/pr/abstract/10.1103/PhysRev.48.73" class="read-more">Read More</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="hobbies">
+            <h3>Hobbies</h3>
+            <div class="grid-section">
+                <div class="grid-item">
+                    <i class="fa fa-music fa-3x" aria-hidden="true"></i>
+                    <p>Playing the Violin</p>
+                </div>
+                <div class="grid-item">
+                    <i class="fas fa-sailboat fa-3x" aria-hidden="true"></i>
+                    <p>Sailing</p>
+                </div>
+                <div class="grid-item">
+                    <i class="fa fa-book fa-3x" aria-hidden="true"></i>
+                    <p>Reading Philosophy</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="articles">
+            <h3>Articles</h3>
+            <div class="grid-section">
+                <div class="grid-item">
+                    <i class="fa fa-newspaper fa-3x" aria-hidden="true"></i>
+                    <h5>General Theory of Relativity: A Century Later</h5>
+                    <p>Discussion on how the theory has stood the test of time and its modern implications.</p>
+                    <a href="https://www.quantamagazine.org/a-century-later-new-math-smooths-out-general-relativity-20231130/" class="read-me">Read Me</a>
+                </div>
+                <div class="grid-item">
+                    <i class="fa fa-newspaper fa-3x" aria-hidden="true"></i>
+                    <h5>The Future of Quantum Mechanics</h5>
+                    <p>An exploration of quantum mechanics and its future applications.</p>
+                    <a href="https://engineering.stanford.edu/news/future-quantum-mechanics-unraveling-entanglements-secrets" class="read-me">Read Me</a>
+                </div>
+            </div>
+        </section>
+
+        <footer id="famous-quotes">
+            <h3>Famous Quotes</h3>
+            <div class="quotes">
+                <div class="quote-item">
+                    <p>"Life is like riding a bicycle. To keep your balance you must keep moving."</p>
+                </div>
+                <div class="quote-item">
+                    <p>"Imagination is more important than knowledge. For knowledge is limited, whereas imagination embraces the entire world."</p>
+                </div>
+            </div>
+        </footer>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
